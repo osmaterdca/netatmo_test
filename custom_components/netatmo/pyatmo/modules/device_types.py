@@ -181,6 +181,7 @@ DEVICE_CATEGORY_MAP: dict[DeviceType, DeviceCategory] = {
     DeviceType.BNS: DeviceCategory.climate,
     DeviceType.NLPC: DeviceCategory.meter,
     DeviceType.NLE: DeviceCategory.meter,
+    DeviceType.NLY: DeviceCategory.meter,
     DeviceType.Z3L: DeviceCategory.dimmer,
     DeviceType.NLUP: DeviceCategory.switch,
     DeviceType.NLPO: DeviceCategory.switch,
@@ -264,6 +265,7 @@ DEVICE_DESCRIPTION_MAP: dict[DeviceType, tuple[str, str]] = {
     DeviceType.NLTS: ("Legrand", "Motion sensor"),
     DeviceType.NLUF: ("Legrand", "In-Wall dimmer"),
     DeviceType.NLJ: ("Legrand", "Garage door opener"),
+    DeviceType.NLY: ("Legrand", "Connected Energy Meter"),
     # BTicino Classe 300 EOS
     DeviceType.BNCX: ("BTicino", "Internal Panel"),
     DeviceType.BNEU: ("BTicino", "External Unit"),
